@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	
 var rowNumber = 1;
 var topicArray = [];
 
