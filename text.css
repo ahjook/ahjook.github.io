@@ -13,6 +13,7 @@ input[type=text], select {
     border: 3px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
+    color:black;
   }
   
   input {
@@ -30,6 +31,12 @@ input[type=text], select {
     box-sizing: border-box;
 
   }
+  .out {
+  margin-top: 30%;
+  border:  3px solid #329dba;
+  width: 100%;
+  background-color: transparent;
+}
   
   .container {
     border: 3px solid #329dba;
@@ -37,7 +44,7 @@ input[type=text], select {
     background-color: transparent;
     padding: 20px;
     width:440px;
-    height: 380px;
+    height: 350px;
   }
 
   .column {
