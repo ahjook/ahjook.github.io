@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	
+
 var rowNumber = 1;
 var topicArray = [];
 
@@ -14,7 +14,7 @@ var topicArray = [];
 		$("#status").val("Connected!");
 		client.on("message", function (topic, payload) {
 		console.log("Received { topic:"+topic+"; payload: "+payload+" }");
-		$('tbody').append('<tr><td>' + topic + '<td>' + payload + '<td>'+moment().format('MMMM Do YYYY, h:mm:ss a') + '</td></tr>');
+		$('tbody').append('<tr><td>' + topic + '<td>' + payload + '<td>'+ moment().format('MMMM Do YYYY, h:mm:ss a') + '</td></tr>');
 		rowNumber++;
 		})
 	})
