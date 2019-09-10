@@ -19,39 +19,39 @@
         <div class="column">
             <div class="container">
                 <h1 class="card-header text-center ">Broker</h1>
-                <form>
+              
                     <label>Address:</label>
                     <input type="text" id="address" value="wss://test.mosquitto.org:8081/mqtt"><br>
                     <button id="connected_btn"  class="btn btn-default">Connect</button>
                     <button id="disconnected_btn" class="btn btn-default">Disconnect</button><br>
                     <label>Status: </label><br>
                     <input type="text" id ="status" value="Disconnected!">
-                </form>
+                 
             </div>
         </div>
         <div class="column">
             <div class="container">
                <h1 class="card-header  text-center ">Publish</h1>
-                <form>
+              
                     <label>Topic:</label>
                     <input type="text" id="topicPublish"><br>
                     <label>Payload: </label><br>
                     <input type="text" id="payload">
                     <button id="publish_btn" class="btn btn-default">Publish</button><br>
-                </form>
+                 
             </div>
         </div>
         <div class="column">
             <div class="container">
                  <h1 class="card-header  text-center ">Subscribe</h1>
-                <form>
+              
                     <label>Topic:</label>
                     <input type="text" id="topicSubscribe"><br>
                     <button id="subscribe_btn" class="btn btn-default">Subscribe</button>
                     <button type="unsubscribe_btn" class="btn btn-default">UnSubscribe</button><br>
                     <label>Status: </label>
-                    <input type="text" id="subscribed">
-                </form>
+                    <input type="text" id="subscribed" value="UnSubscribe">
+                 
             </div>
         </div>
 
